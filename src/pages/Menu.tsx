@@ -3,6 +3,23 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeft } from "lucide-react";
 import { Link } from "react-router-dom";
+import primeBrisket from "@/assets/prime-brisket.png";
+import heritagePorkRibs from "@/assets/heritage-pork-ribs.png";
+import pulledPorkShoulder from "@/assets/pulled-pork-shoulder.png";
+import houseMadeSausage from "@/assets/house-made-sausage.png";
+import ironBrandSignatureBurger from "@/assets/iron-brand-signature.png";
+import brisketBurger from "@/assets/brisket-burger.png";
+import thePitmaster from "@/assets/the-pitmaster.png";
+import tomahackRibey from "@/assets/tomahack-ribey.png";
+import smokedChicken from "@/assets/smoked-chicken.png";
+import roastedVegies from "@/assets/roasted-vegies.png";
+import macAndCheese from "@/assets/mac-and-cheese.png";
+import bakedBeans from "@/assets/baked-beans.png";
+import bakedPotato from "@/assets/mash-potatoes.png";
+import honeyCornBread from "@/assets/honey-corn-bread.png";
+import localTaps from "@/assets/taps.png";
+import americanWhisky from "@/assets/american-whiskeys.png";
+import houseBourbon from "@/assets/house-bourbon.png";
 
 const Menu = () => {
   const menuCategories = [
@@ -14,25 +31,25 @@ const Menu = () => {
           name: "Prime Brisket",
           description: "Hand-selected prime grade brisket, dry-rubbed and smoked to perfection with our signature bark",
           price: "$28.99",
-          image: "/api/placeholder/400/300"
+          image: primeBrisket
         },
         {
           name: "Heritage Pork Ribs",
           description: "St. Louis cut ribs from heritage breed pork, glazed with bourbon barrel-aged BBQ sauce",
           price: "$24.99",
-          image: "/api/placeholder/400/300"
+          image: heritagePorkRibs
         },
         {
           name: "Pulled Pork Shoulder",
           description: "Boston butt smoked low and slow, hand-pulled and finished with Carolina-style vinegar sauce",
           price: "$18.99",
-          image: "/api/placeholder/400/300"
+          image: pulledPorkShoulder
         },
         {
           name: "House-Made Sausage",
           description: "Jalapeño cheddar sausage crafted in-house with locally sourced beef and pork",
           price: "$16.99",
-          image: "/api/placeholder/400/300"
+          image: houseMadeSausage
         }
       ]
     },
@@ -44,19 +61,19 @@ const Menu = () => {
           name: "The Iron Brand Signature",
           description: "Double-stacked wagyu blend patties, aged cheddar, smoked bacon, caramelized onions, house sauce",
           price: "$19.99",
-          image: "/api/placeholder/400/300"
+          image: ironBrandSignatureBurger
         },
         {
           name: "Brisket Burger",
           description: "Beef patty topped with burnt ends, pepper jack cheese, crispy onions, BBQ aioli",
           price: "$17.99",
-          image: "/api/placeholder/400/300"
+          image: brisketBurger
         },
         {
           name: "The Pitmaster",
           description: "Elk and beef blend, goat cheese, arugula, roasted red peppers, balsamic reduction",
           price: "$21.99",
-          image: "/api/placeholder/400/300"
+          image: thePitmaster
         }
       ]
     },
@@ -68,19 +85,19 @@ const Menu = () => {
           name: "Tomahawk Ribeye",
           description: "32oz dry-aged tomahawk ribeye, herb butter, served with loaded potato gratin",
           price: "$89.99",
-          image: "/api/placeholder/400/300"
+          image: tomahackRibey
         },
         {
           name: "Smoked Chicken",
           description: "Free-range half chicken, Nashville hot rub, served with honey cornbread",
           price: "$22.99",
-          image: "/api/placeholder/400/300"
+          image: smokedChicken
         },
         {
           name: "Grilled Portobello",
           description: "Marinated portobello caps, roasted vegetables, chimichurri sauce",
           price: "$16.99",
-          image: "/api/placeholder/400/300"
+          image: roastedVegies
         }
       ]
     },
@@ -92,25 +109,25 @@ const Menu = () => {
           name: "Truffle Mac & Cheese",
           description: "Five-cheese blend with truffle oil and herb breadcrumbs",
           price: "$12.99",
-          image: "/api/placeholder/400/300"
+          image: macAndCheese
         },
         {
           name: "Bourbon Baked Beans",
           description: "Heritage beans slow-cooked with bourbon, molasses, and smoked pork belly",
           price: "$9.99",
-          image: "/api/placeholder/400/300"
+          image: bakedBeans
         },
         {
           name: "Loaded Potato Gratin",
           description: "Yukon Gold potatoes, aged cheddar, chives, bacon bits",
           price: "$11.99",
-          image: "/api/placeholder/400/300"
+          image: bakedPotato
         },
         {
           name: "Honey Cornbread",
           description: "House-made cornbread with local honey butter and sea salt",
           price: "$7.99",
-          image: "/api/placeholder/400/300"
+          image: honeyCornBread
         }
       ]
     },
@@ -122,19 +139,19 @@ const Menu = () => {
           name: "Local Craft Selection",
           description: "Rotating taps featuring the finest Texas breweries",
           price: "$7.99 - $12.99",
-          image: "/api/placeholder/400/300"
+          image: localTaps
         },
         {
           name: "Whiskey Flight",
           description: "Three-pour flight of premium American whiskeys",
           price: "$24.99",
-          image: "/api/placeholder/400/300"
+          image: americanWhisky
         },
         {
           name: "Smoked Old Fashioned",
           description: "House bourbon, cherry wood smoke, demerara sugar, orange bitters",
           price: "$16.99",
-          image: "/api/placeholder/400/300"
+          image: houseBourbon
         }
       ]
     }
@@ -150,7 +167,7 @@ const Menu = () => {
               <ArrowLeft className="h-5 w-5" />
               <span className="text-lg font-subheading">Back to Home</span>
             </Link>
-            
+
             <div className="flex items-center space-x-2">
               <h1 className="text-2xl md:text-3xl font-heading text-primary">The Iron Brand</h1>
             </div>
@@ -169,7 +186,7 @@ const Menu = () => {
             Our Menu
           </h1>
           <p className="text-xl md:text-2xl text-foreground/80 max-w-3xl mx-auto">
-            Authentic pit-smoked BBQ and handcrafted cuisine, prepared with the finest ingredients 
+            Authentic pit-smoked BBQ and handcrafted cuisine, prepared with the finest ingredients
             and time-honored techniques
           </p>
         </div>
@@ -193,9 +210,9 @@ const Menu = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                   {section.items.map((item) => (
                     <Card key={item.name} className="bg-card shadow-dark hover:shadow-gold transition-all duration-300 overflow-hidden">
-                      <div 
+                      <div
                         className="h-48 bg-cover bg-center bg-gray-800"
-                        style={{ 
+                        style={{
                           backgroundImage: `url(${item.image})`,
                           backgroundColor: '#2a2a2a'
                         }}

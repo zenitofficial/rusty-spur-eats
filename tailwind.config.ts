@@ -20,7 +20,7 @@ export default {
 		extend: {
 			fontFamily: {
 				'heading': ['Alfa Slab One', 'serif'],
-				'subheading': ['Cormorant Garamond', 'serif'],
+				'subheading': ['Montserrat', 'serif'],
 				'body': ['Montserrat', 'sans-serif'],
 			},
 			backgroundImage: {
