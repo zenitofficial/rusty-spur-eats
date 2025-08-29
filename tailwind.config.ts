@@ -19,7 +19,8 @@ export default {
 		},
 		extend: {
 			fontFamily: {
-				'heading': ['Anton', 'sans-serif'],
+				'heading': ['Alfa Slab One', 'serif'],
+				'subheading': ['Cormorant Garamond', 'serif'],
 				'body': ['Montserrat', 'sans-serif'],
 			},
 			backgroundImage: {
@@ -27,8 +28,8 @@ export default {
 				'gradient-subtle': 'var(--gradient-subtle)',
 			},
 			boxShadow: {
-				'warm': 'var(--shadow-warm)',
-				'soft': 'var(--shadow-soft)',
+				'gold': 'var(--shadow-gold)',
+				'dark': 'var(--shadow-dark)',
 			},
 			colors: {
 				border: 'hsl(var(--border))',

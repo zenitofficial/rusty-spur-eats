@@ -8,55 +8,55 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Texas Smokehouse Color Palette */
-    --background: 50 15% 94%;  /* Cream/Off-White #F5F5DC */
-    --foreground: 15 20% 24%;  /* Dark Brown #3D2C28 */
+    /* Iron Brand Dark Smokehouse Palette */
+    --background: 0 0% 10%;  /* Charcoal Black #1A1A1A */
+    --foreground: 50 15% 94%;  /* Off-White #F5F5DC */
 
-    --card: 50 15% 94%;
-    --card-foreground: 15 20% 24%;
+    --card: 20 15% 15%;  /* Slightly lighter than background */
+    --card-foreground: 50 15% 94%;
 
-    --popover: 50 15% 94%;
-    --popover-foreground: 15 20% 24%;
+    --popover: 20 15% 15%;
+    --popover-foreground: 50 15% 94%;
 
-    /* Burnt Sienna as primary accent */
-    --primary: 15 38% 47%;  /* Burnt Sienna #A15D4D */
-    --primary-foreground: 50 15% 94%;
+    /* Antique Gold as primary accent */
+    --primary: 42 28% 52%;  /* Antique Gold #A68B5E */
+    --primary-foreground: 0 0% 10%;
 
-    /* Pale Tan for secondary elements */
-    --secondary: 43 24% 70%;  /* Pale Tan #D2B48C */
-    --secondary-foreground: 15 20% 24%;
+    /* Burnt Umber for secondary elements */
+    --secondary: 25 25% 25%;  /* Burnt Umber #4A3B2F */
+    --secondary-foreground: 50 15% 94%;
 
-    --muted: 43 24% 70%;
-    --muted-foreground: 15 15% 35%;
+    --muted: 25 25% 25%;
+    --muted-foreground: 50 10% 70%;
 
-    --accent: 15 38% 47%;
-    --accent-foreground: 50 15% 94%;
+    --accent: 42 28% 52%;
+    --accent-foreground: 0 0% 10%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 50 15% 94%;
 
-    --border: 43 24% 80%;
-    --input: 43 24% 80%;
-    --ring: 15 38% 47%;
+    --border: 25 25% 20%;
+    --input: 25 25% 20%;
+    --ring: 42 28% 52%;
 
     --radius: 0.5rem;
 
-    /* Gradient definitions */
-    --gradient-hero: linear-gradient(135deg, hsl(15 38% 47%), hsl(15 25% 35%));
-    --gradient-subtle: linear-gradient(180deg, hsl(50 15% 94%), hsl(43 24% 88%));
+    /* Dark theme gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(0 0% 10%), hsl(25 25% 15%));
+    --gradient-subtle: linear-gradient(180deg, hsl(0 0% 8%), hsl(25 25% 12%));
 
-    /* Shadows */
-    --shadow-warm: 0 10px 30px -10px hsl(15 38% 47% / 0.3);
-    --shadow-soft: 0 4px 12px -2px hsl(15 20% 24% / 0.1);
+    /* Sophisticated shadows */
+    --shadow-gold: 0 10px 30px -10px hsl(42 28% 52% / 0.3);
+    --shadow-dark: 0 4px 20px -2px hsl(0 0% 0% / 0.5);
 
-    --sidebar-background: 50 15% 94%;
-    --sidebar-foreground: 15 20% 24%;
-    --sidebar-primary: 15 38% 47%;
-    --sidebar-primary-foreground: 50 15% 94%;
-    --sidebar-accent: 43 24% 70%;
-    --sidebar-accent-foreground: 15 20% 24%;
-    --sidebar-border: 43 24% 80%;
-    --sidebar-ring: 15 38% 47%;
+    --sidebar-background: 0 0% 8%;
+    --sidebar-foreground: 50 15% 94%;
+    --sidebar-primary: 42 28% 52%;
+    --sidebar-primary-foreground: 0 0% 10%;
+    --sidebar-accent: 25 25% 18%;
+    --sidebar-accent-foreground: 50 15% 94%;
+    --sidebar-border: 25 25% 20%;
+    --sidebar-ring: 42 28% 52%;
   }
 
   .dark {
